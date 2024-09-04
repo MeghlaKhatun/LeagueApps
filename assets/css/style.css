@@ -18,25 +18,83 @@
 /*
  Landingpage Default css
 */
-body{
-  margin: 0;
-  padding: 0;
-  font-size: 18px;
-  box-sizing: border-box;
+body {
+   margin: 0;
+   padding: 0;
+   font-size: 18px;
+   box-sizing: border-box;
 }
 
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, span, video {
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+span,
+video {
    margin: 0;
    padding: 0;
    border: 0;
@@ -44,15 +102,27 @@ time, mark, audio, span, video {
    font-size: 100%;
    background: transparent;
 }
-p a{
-  background: transparent !important;
+
+p a {
+   background: transparent !important;
 }
-article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section {
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
    display: block;
 }
-textarea{
-	outline:none !important;
+
+textarea {
+   outline: none !important;
 }
 
 audio,
@@ -60,17 +130,24 @@ canvas,
 video {
    display: inline-block;
 }
-a{
-  outline: none !important;
+
+a {
+   outline: none !important;
 }
+
 audio:not([controls]) {
    display: none;
    height: 0;
 }
 
-[hidden] { display: none; }
+[hidden] {
+   display: none;
+}
 
-code, kbd, pre, samp {
+code,
+kbd,
+pre,
+samp {
    font-family: monospace, serif;
    font-size: 1em;
 }
@@ -81,8 +158,10 @@ pre {
    word-wrap: break-word;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
    content: '';
    content: none;
 }
@@ -98,9 +177,12 @@ mark {
    color: #555;
 }
 
-del { text-decoration: line-through; }
+del {
+   text-decoration: line-through;
+}
 
-abbr[title], dfn[title] {
+abbr[title],
+dfn[title] {
    border-bottom: 1px dotted;
    cursor: help;
 }
@@ -109,55 +191,167 @@ table {
    border-collapse: collapse;
    border-spacing: 0;
 }
-button{
-  outline: none !important;
-}
-input
-{
-    outline:none !important;
+
+button {
+   outline: none !important;
 }
 
-textarea{
-  outline: none !important;
+input {
+   outline: none !important;
 }
+
+textarea {
+   outline: none !important;
+}
+
 /******************************** End default css*******************************************/
 
-h1,h2,h3,h4,h5,h6,p{
-  margin:0;
-  padding:0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+   margin: 0;
+   padding: 0;
 }
-ul{
-  margin:0;
-  padding: 0;
-  list-style: none;
+
+ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
 }
-a{
-  margin:0;
-  padding:0;
-  text-decoration: none;
+
+a {
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
 }
-a:hover{
-  text-decoration: none;
+
+a:hover {
+   text-decoration: none;
+}
+
+.container {
+   max-width: 1320px;
+   margin: 0px auto;
 }
 
 /**************************************/
-/************ Header  Area*************/
+/************Header Banner Area********/
 /************************************/
+.header-banner-area {
+   background: url(../images/banner-bg.png) no-repeat scroll 0 0 / 100% 100%;
+   background-color: #014B1F;
+   background-size: 100%;
+   width: 100%;
+   border-radius: 0px 0px 20px 20px;
+}
 
-.hello{
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 26px 0px;
+}
+
+.header-logo img {
+   width: 195px;
+   height: auto;
+}
+
+.menu-right {
+   display: flex;
+   align-items: center;
+   gap: 39px;
+}
+
+.menu ul {
+   display: flex;
+   align-items: center;
+   gap: 42px;
+}
+
+.menu ul li a {
    font-family: 'moderat_trial';
-   font-size: 30px;
+   font-size: 15px;
+   font-weight: 400;
+   line-height: 18px;
+   color: #FFFFFF;
 }
-.meghla{
-   font-size: 30px;
-   font-family: 'urw_din_semicond';
+
+.header-btns {
+   display: flex;
+   align-items: center;
+   gap: 15px;
 }
-.arafat{
-   font-size: 30px;
+
+.header-btn a {
+   font-family: 'moderat_trial';
+   font-size: 15px;
+   font-weight: 400;
+   line-height: 18px;
+   letter-spacing: 0.01em;
+   text-align: center;
+   color: #FFFFFF;
+   padding: 16px 20px;
+   border: 1.5px solid #69CE70;
+   border-radius: 24px;
+}
+
+.request-btn a {
+   border: none;
+   background-color: #69CE70;
+}
+
+/* banner area */
+.banner-area{
+   padding: 162px 0px;
+}
+.banner-area h1 {
+   font-family: 'moderat_trial';
+   font-size: 74px;
+   font-weight: 400;
+   line-height: 81.4px;
+   letter-spacing: -0.01em;
+   text-align: center;
+   color: #FFFFFF;
+   width: 90%;
+   margin: 0px auto;
+}
+
+.banner-area p {
+   font-family: 'moderat_trial';
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 30.6px;
+   text-align: center;
+   color: #FFFFFF;
+   padding-top: 25px;
+   width: 40%;
+   margin: 0px auto;
+}
+
+.banner-btn {
+   display: flex;
+   justify-content: center;
+   padding-top: 40px;
+}
+
+.banner-btn a {
+   display: flex;
+   align-items: center;
+   gap: 50px;
+   background-color: #50BB57;
+   color: #FFFFFF;
+   border-radius: 34px;
+   padding: 16px 25px;
    font-family: 'wigrum';
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 17.01px;
 }
-
 /**************************************/
-/************ Header  Area*************/
+/************Header Banner Area******/
 /************************************/
-
