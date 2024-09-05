@@ -452,14 +452,16 @@ a:hover {
    width: 50%;
    margin: 0px auto;
 }
-.sports-management-btn{
+
+.sports-management-btn {
    display: flex;
    justify-content: center;
    align-items: center;
    gap: 14px;
    padding-top: 39px;
 }
-.sports-management-btn a{
+
+.sports-management-btn a {
    padding: 17px 25px 17px 23px;
    font-family: 'wigrum';
    display: flex;
@@ -470,6 +472,158 @@ a:hover {
    border-radius: 30px;
    color: #FFFFFF;
 }
+
 /**************************************/
 /****end sports managementArea******/
+/************************************/
+
+/**************************************/
+/****partner area start******/
+/************************************/
+.partner-area {
+   background-color: #E4FFE180;
+   padding: 82px 0px 154px 0px;
+}
+
+.partner-heading h3 {
+   font-family: 'urw_din_semicond';
+   font-weight: 700;
+   line-height: 16.8px;
+   letter-spacing: 0.04em;
+   text-align: center;
+   color: #323232;
+}
+
+.partner-heading h1 {
+   font-family: 'moderat_trial';
+   font-size: 60px;
+   font-weight: 400;
+   line-height: 72px;
+   letter-spacing: -0.01em;
+   text-align: center;
+   color: #50BB57;
+   padding-top: 25px;
+   width: 60%;
+   margin: 0px auto;
+}
+
+.partner-heading p {
+   font-family: 'moderat_trial';
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 25.6px;
+   text-align: center;
+   color: #323232;
+   padding-top: 22px;
+   width: 50%;
+   margin: 0px auto;
+}
+
+.view-partner-btn a {
+   display: flex;
+   justify-content: center;
+   font-family: 'moderat_trial';
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 16.8px;
+   text-align: center;
+   color: #50BB57;
+   padding-top: 25px;
+   border-bottom: 1.5px solid #50BB57;
+   width: 186px;
+   margin: 0px auto;
+}
+
+.partner-logo-area {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.partner-logo-1 img {
+   width: 122.32px;
+   height: 122.32px;
+   margin-top: 143px;
+}
+
+.partner-logo-2 img {
+   width: 114.68px;
+   height: 114.68px;
+   margin-left: -50px;
+   margin-top: 5px;
+}
+
+.partner-logo-3 img {
+   width: 149.08px;
+   height: 149.08px;
+   margin-top: 220px;
+   position: absolute;
+   margin-left: -80px;
+}
+
+.partner-logo-4 img {
+   width: 152.9px;
+   height: 152.9px;
+   margin-top: 64px;
+   margin-left: 70px;
+}
+
+.partner-logo-5 img {
+   width: 107.03px;
+   height: 107.03px;
+   margin-top: 240px;
+   margin-left: -100px;
+}
+
+.partner-logo-6 img {
+   width: 114.68px;
+   height: 114.68px;
+   margin-top: 230px;
+   margin-left: 37px;
+}
+
+.partner-logo-7 img {
+   width: 114.68px;
+   height: 114.68px;
+   margin-top: 109px;
+   margin-left: -30px;
+}
+
+.partner-logo-8 img {
+   width: 152.9px;
+   height: 152.9px;
+   margin-top: 220px;
+   margin-left: -20px;
+}
+
+.partner-logo-9 img {
+   width: 149.08px;
+   height: 149.08px;
+   margin-top: 67px;
+   margin-left: -80px;
+}
+
+.partner-logo-10 img {
+   width: 114.68px;
+   height: 114.68px;
+   margin-top: 155px;
+   margin-left: -25px;
+}
+
+.partner-logo-11 img {
+   width: 150.99px;
+   height: 150.99px;
+   margin-top: 15px;
+   margin-left: -33px;
+}
+
+.partner-logo-12 img {
+   width: 150.99px;
+   height: 150.99px;
+   margin-top: 180px;
+   margin-left: -70px;
+}
+
+/**************************************/
+/****partner area end******/
 /************************************/
