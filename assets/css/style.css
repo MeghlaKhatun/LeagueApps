@@ -673,5 +673,47 @@ a:hover {
 }
 
 /**************************************/
-/****partner area end******/
+/**********partner area end**********/
+/************************************/
+
+/**************************************/
+/**********team area start***********/
+/************************************/
+.avatar {
+   display: flex;
+   justify-content: center;
+}
+
+.avatar img {
+   height: auto;
+   width: 120px;
+   margin-top: -55px;
+}
+
+.team-area-heading p {
+   font-family: 'moderat_trial';
+   font-size: 28px;
+   font-weight: 400;
+   line-height: 44.8px;
+   letter-spacing: -0.01em;
+   text-align: center;
+   color: #323232;
+   padding-top: 21px;
+   width: 55%;
+   margin: 0px auto;
+}
+
+.company-logo {
+   display: flex;
+   justify-content: center;
+   padding-top: 10px;
+}
+
+.company-logo img {
+   width: 240px;
+   height: auto;
+}
+
+/**************************************/
+/**********team area end**********/
 /************************************/
