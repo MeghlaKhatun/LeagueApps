@@ -690,6 +690,10 @@ a:hover {
    margin-top: -55px;
 }
 
+.team-area-heading {
+   position: relative;
+}
+
 .team-area-heading p {
    font-family: 'moderat_trial';
    font-size: 28px;
@@ -712,6 +716,80 @@ a:hover {
 .company-logo img {
    width: 240px;
    height: auto;
+}
+
+/* sports team area */
+.business-sport-team-area {
+   background-color: #50BB57;
+
+}
+
+.sport-team-area {
+   background: url(../images/team-bg.png);
+   background-repeat: no-repeat;
+   width: 100%;
+   height: auto;
+   background-size: cover;
+   margin-top: 85px;
+   border-radius: 20px;
+   padding: 70px 112px 170px 57px;
+}
+
+.sport-team {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.sport-team-left {
+   flex: 1;
+}
+
+.sport-team-left p {
+   font-family: 'urw_din_semicond';
+   line-height: 16.8px;
+   letter-spacing: 0.04em;
+   color: #FFFFFF;
+}
+
+.sport-team-left h1 {
+   font-family: 'moderat_trial';
+   font-size: 60px;
+   font-weight: 400;
+   line-height: 66px;
+   letter-spacing: -0.01em;
+   color: #D0FF6B;
+   display: flex;
+   gap: 40px;
+   margin-top: 90px;
+}
+
+.sport-team-left h1 i {
+   font-size: 50px;
+}
+
+.sport-team-left h2 {
+   font-family: 'moderat_trial';
+   font-size: 60px;
+   font-weight: 400;
+   line-height: 66px;
+   color: #FFFFFF;
+   margin-top: 35px;
+}
+
+.sport-team-right {
+   flex: 1;
+}
+
+.sport-team-right p {
+   font-family: 'moderat_trial';
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 32px;
+   color: #FFFFFF;
+   width: 51%;
+   margin: 0px auto;
+   float: right;
 }
 
 /**************************************/
