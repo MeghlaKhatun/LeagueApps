@@ -692,6 +692,7 @@ a:hover {
 
 .team-area-heading {
    position: relative;
+   margin-bottom: 400px;
 }
 
 .team-area-heading p {
@@ -723,19 +724,21 @@ a:hover {
    background-color: #50BB57;
    padding-bottom: 81px;
    border-radius: 0px 0px 30px 30px;
-   z-index: 222;
+   position: relative;
+   z-index: 1;
 
 }
 
 .sport-team-area {
    background: url(../images/team-bg.png);
    background-repeat: no-repeat;
-   width: 100%;
+   max-width: 1320px;
    height: auto;
    background-size: cover;
-   margin-top: 85px;
+   margin-top: -320px;
    border-radius: 20px;
    padding: 70px 31px 170px 57px;
+   position: absolute;
 }
 
 .sport-team {
@@ -801,7 +804,6 @@ a:hover {
    width: 100%;
    background-color: #449F4A;
    padding: 23px 23px 23px 62px;
-   margin-top: 47px;
    border-radius: 20px;
 }
 
@@ -850,9 +852,11 @@ a:hover {
    font-weight: 400;
    line-height: 17.01px;
 }
-.impact-driven-btn a i{
+
+.impact-driven-btn a i {
    margin-left: 35px;
 }
+
 .impact-driven-right {
    flex: 1;
 }
@@ -870,10 +874,50 @@ a:hover {
 /**************************************/
 /**********join us start**********/
 /************************************/
-.join-us-area{
+.join-us-area {
    background-color: #014B1F;
-   margin-top: -35px;
-   
+   padding: 160px 0px 130px 0px;
+   margin-top: -25px;
+   z-index: -1;
+   position: relative;
+
+}
+
+.joni-us {
+   display: flex;
+   justify-content: space-between;
+   padding: 0px 82px;
+}
+.join-us-left{
+   flex: 1;
+   float: left;
+}
+.join-us-left h1 {
+   font-family: 'moderat_trial';
+   font-size: 80px;
+   font-weight: 400;
+   line-height: 80px;
+   color: #FFFFFF;
+}
+
+.join-us-left h3 {
+   display: flex;
+   gap: 21px;
+   font-family: 'moderat_trial';
+   font-size: 30px;
+   color: #D0FF6B;
+}
+.join-us-left img{
+   width: 55px;
+height: 55px;
+}
+.join-us-right{
+   flex: 1;
+   float: right;
+}
+.join-us-right p{
+   width: 77%;
+   margin: auto;
 }
 /**************************************/
 /**********join us end**********/
