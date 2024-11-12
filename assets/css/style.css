@@ -721,6 +721,9 @@ a:hover {
 /* sports team area */
 .business-sport-team-area {
    background-color: #50BB57;
+   padding-bottom: 81px;
+   border-radius: 0px 0px 30px 30px;
+   z-index: 222;
 
 }
 
@@ -732,7 +735,7 @@ a:hover {
    background-size: cover;
    margin-top: 85px;
    border-radius: 20px;
-   padding: 70px 112px 170px 57px;
+   padding: 70px 31px 170px 57px;
 }
 
 .sport-team {
@@ -789,9 +792,89 @@ a:hover {
    color: #FFFFFF;
    width: 51%;
    margin: 0px auto;
-   float: right;
+}
+
+/* impact driven business area */
+.impact-driven-business-area {
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   background-color: #449F4A;
+   padding: 23px 23px 23px 62px;
+   margin-top: 47px;
+   border-radius: 20px;
+}
+
+.impact-driven-left {
+   flex: 1;
+}
+
+.impact-driven-left h3 {
+   font-family: 'urw_din_semicond';
+   color: #FFFFFF;
+   margin-top: 38px;
+}
+
+.impact-driven-left h1 {
+   font-family: 'moderat_trial';
+   font-size: 54px;
+   font-weight: 400;
+   line-height: 64.8px;
+   letter-spacing: -0.01em;
+   color: #FFFFFF;
+   width: 80%;
+   margin-top: 50px;
+}
+
+.impact-driven-left h2 {
+   font-family: 'moderat_trial';
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 27.2px;
+   margin-top: 57px;
+   color: #FFFFFF;
+   width: 79%;
+}
+
+.impact-driven-btn {
+   margin-top: 50px;
+}
+
+.impact-driven-btn a {
+   background-color: #FFFFFF;
+   padding: 18px 24px;
+   border-radius: 34px;
+   color: #50BB57;
+   font-family: 'wigrum';
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 17.01px;
+}
+.impact-driven-btn a i{
+   margin-left: 35px;
+}
+.impact-driven-right {
+   flex: 1;
+}
+
+.impact-driven-right img {
+   width: 100%;
+   margin-left: 57px;
 }
 
 /**************************************/
 /**********team area end**********/
+/************************************/
+
+
+/**************************************/
+/**********join us start**********/
+/************************************/
+.join-us-area{
+   background-color: #014B1F;
+   margin-top: -35px;
+   
+}
+/**************************************/
+/**********join us end**********/
 /************************************/
