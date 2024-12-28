@@ -883,7 +883,7 @@ a:hover {
 
 }
 
-.joni-us {
+.join-us{
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -935,3 +935,13 @@ a:hover {
 /**************************************/
 /**********join us end**********/
 /************************************/
+
+
+/**************************************/
+/**********footer start  **********/
+/************************************/
+footer{
+   background-color: #014B1F;
+   border: 1.5px solid #00000033;
+   padding: 104px 0px 60px;
+}
